@@ -3,7 +3,7 @@ function calculate() {
   var result;
   var original       = document.getElementById("original");
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?: \.\d+)?(?:e[-+]?\d+)?)\s*([cf])\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d+)?(?:e[-+]?\d+)?)\s*([cf])\s*$/i;
   
   /*
   Función match, se le pasa una expresión regular a una cadena
