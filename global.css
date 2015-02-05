@@ -1,5 +1,6 @@
 th, td      { vertical-align: center; text-align: left; font-size:large; }     /* Don't center table cells  */
 #converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
+#estaciones { align: center; width:600; height:300;  margin-top: 50px;}
 
 input       { 
               text-align: right;       /* Align input to the right  */
@@ -12,11 +13,13 @@ body
 {
  color: #B43104;
  text-align: center;
- background-color:#d8da3d;
+ background-color:#F4FA58;
  font-family: "Gill Sans MT", "Gill Sans", "My Gill Sans", "sans-serif";
 }
 
 h1 {
+
+    margin:20px;
     font-family: "Gill Sans MT", cursive;
     background: orange;
     padding: 5px 15px;
