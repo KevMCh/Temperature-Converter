@@ -1,4 +1,6 @@
-"use strict"; // Use ECMAScript 5 strict mode in browsers that support it
+//(function(exports){
+  "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
+
 function calculate() {
   var result;
   var original       = document.getElementById("original");
@@ -36,4 +38,4 @@ function calculate() {
   else {
     converted.innerHTML = "Error!";
   }
-}
+}//)(this);
